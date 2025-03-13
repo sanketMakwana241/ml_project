@@ -1,0 +1,886 @@
+[
+    {
+        "QuestionId": 1,
+        "QuestionDesc": "What is the primary objective of Linear Regression?",
+        "QuestionOptions": [
+            "To classify data points",
+            "To establish a linear relationship",
+            "To cluster data",
+            "To reduce dimensions"
+        ],
+        "QuestionAnswer": "To establish a linear relationship",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Linear Regression aims to model the relationship between dependent and independent variables."
+    },
+    {
+        "QuestionId": 2,
+        "QuestionDesc": "Which of the following represents a Simple Linear Regression equation?",
+        "QuestionOptions": [
+            "y = mx + c",
+            "y = β0 + β1x + ε",
+            "y = ax² + bx + c",
+            "y = log(x)"
+        ],
+        "QuestionAnswer": "y = β0 + β1x + ε",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "The equation consists of an intercept (β0), a coefficient (β1), and an error term (ε)."
+    },
+    {
+        "QuestionId": 3,
+        "QuestionDesc": "Which component in Linear Regression represents the predicted value when x=0?",
+        "QuestionOptions": [
+            "Slope (β1)",
+            "Intercept (β0)",
+            "Error Term (ε)",
+            "Residual"
+        ],
+        "QuestionAnswer": "Intercept (β0)",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "The intercept is the expected value of the dependent variable when all independent variables are zero."
+    },
+    {
+        "QuestionId": 4,
+        "QuestionDesc": "Which of the following is an assumption of Linear Regression?",
+        "QuestionOptions": [
+            "Linearity",
+            "Overfitting",
+            "Underfitting",
+            "Gradient Descent"
+        ],
+        "QuestionAnswer": "Linearity",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Linear Regression assumes a linear relationship between independent and dependent variables."
+    },
+    {
+        "QuestionId": 5,
+        "QuestionDesc": "Which statistical method is used to minimize error in Linear Regression?",
+        "QuestionOptions": [
+            "Gradient Descent",
+            "Maximum Likelihood",
+            "Ordinary Least Squares (OLS)",
+            "Log Loss"
+        ],
+        "QuestionAnswer": "Ordinary Least Squares (OLS)",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "OLS minimizes the sum of squared differences between actual and predicted values."
+    },
+    {
+        "QuestionId": 6,
+        "QuestionDesc": "What does R-squared represent in a Linear Regression model?",
+        "QuestionOptions": [
+            "The number of independent variables",
+            "The accuracy of predictions",
+            "The proportion of variance explained",
+            "The correlation coefficient"
+        ],
+        "QuestionAnswer": "The proportion of variance explained",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "R-squared measures how well the independent variables explain the variance in the dependent variable."
+    },
+    {
+        "QuestionId": 7,
+        "QuestionDesc": "Which technique is used to evaluate the performance of a Linear Regression model?",
+        "QuestionOptions": [
+            "Confusion Matrix",
+            "Precision-Recall Curve",
+            "Mean Squared Error (MSE)",
+            "Silhouette Score"
+        ],
+        "QuestionAnswer": "Mean Squared Error (MSE)",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "MSE calculates the average squared difference between actual and predicted values."
+    },
+    {
+        "QuestionId": 8,
+        "QuestionDesc": "What happens if independent variables in Linear Regression are highly correlated?",
+        "QuestionOptions": [
+            "Overfitting",
+            "Underfitting",
+            "Multicollinearity",
+            "Bias"
+        ],
+        "QuestionAnswer": "Multicollinearity",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Multicollinearity occurs when independent variables are highly correlated, affecting model interpretation."
+    },
+    {
+        "QuestionId": 9,
+        "QuestionDesc": "Which of the following is an application of Linear Regression?",
+        "QuestionOptions": [
+            "Spam Email Detection",
+            "Predicting House Prices",
+            "Clustering Customers",
+            "Image Classification"
+        ],
+        "QuestionAnswer": "Predicting House Prices",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Linear Regression is commonly used to predict continuous values like house prices."
+    },
+    {
+        "QuestionId": 10,
+        "QuestionDesc": "What effect do outliers have on Linear Regression models?",
+        "QuestionOptions": [
+            "No effect",
+            "Improves model accuracy",
+            "Increases model bias",
+            "Can distort predictions"
+        ],
+        "QuestionAnswer": "Can distort predictions",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Outliers can significantly impact the fitted regression line, leading to inaccurate predictions."
+    },
+    {
+        "QuestionId": 101,
+        "QuestionDesc": "What is the primary objective of Polynomial Regression?",
+        "QuestionOptions": [
+            "To model linear relationships",
+            "To model non-linear relationships",
+            "To reduce dimensionality",
+            "To classify data"
+        ],
+        "QuestionAnswer": "To model non-linear relationships",
+        "QuestionTopic": "Polynomial Regression",
+        "QuestionReason": "Polynomial Regression is used when the relationship between independent and dependent variables is non-linear."
+    },
+    {
+        "QuestionId": 102,
+        "QuestionDesc": "Which of the following terms is unique to Polynomial Regression?",
+        "QuestionOptions": [
+            "Intercept (β0)",
+            "Slope (β1)",
+            "Polynomial Terms (x², x³, etc.)",
+            "Error Term (ε)"
+        ],
+        "QuestionAnswer": "Polynomial Terms (x², x³, etc.)",
+        "QuestionTopic": "Polynomial Regression",
+        "QuestionReason": "Polynomial Regression includes polynomial terms like x² and x³ to capture non-linear patterns."
+    },
+    {
+        "QuestionId": 103,
+        "QuestionDesc": "What is the equation for Quadratic Regression?",
+        "QuestionOptions": [
+            "y = β0 + β1x + β2x²",
+            "y = β0 + β1x",
+            "y = β0 + β1x + β2x² + β3x³",
+            "y = log(x)"
+        ],
+        "QuestionAnswer": "y = β0 + β1x + β2x²",
+        "QuestionTopic": "Polynomial Regression",
+        "QuestionReason": "Quadratic Regression is a second-degree Polynomial Regression model with an x² term."
+    },
+    {
+        "QuestionId": 104,
+        "QuestionDesc": "Which assumption is specific to Polynomial Regression?",
+        "QuestionOptions": [
+            "The relationship between variables can be approximated using a polynomial function.",
+            "The data must be normally distributed.",
+            "There should be no missing values.",
+            "All variables must be categorical."
+        ],
+        "QuestionAnswer": "The relationship between variables can be approximated using a polynomial function.",
+        "QuestionTopic": "Polynomial Regression",
+        "QuestionReason": "Polynomial Regression assumes that a polynomial function can approximate the relationship between variables."
+    },
+    {
+        "QuestionId": 105,
+        "QuestionDesc": "Which method is commonly used to estimate coefficients in Polynomial Regression?",
+        "QuestionOptions": [
+            "Gradient Descent",
+            "Maximum Likelihood",
+            "Ordinary Least Squares (OLS)",
+            "Random Forest"
+        ],
+        "QuestionAnswer": "Ordinary Least Squares (OLS)",
+        "QuestionTopic": "Polynomial Regression",
+        "QuestionReason": "OLS is used to minimize the sum of squared errors between actual and predicted values."
+    },
+    {
+        "QuestionId": 106,
+        "QuestionDesc": "Why is Polynomial Regression prone to overfitting?",
+        "QuestionOptions": [
+            "Because it has too few parameters",
+            "Because it assumes a linear relationship",
+            "Because high-degree polynomials can fit noise instead of patterns",
+            "Because it ignores errors"
+        ],
+        "QuestionAnswer": "Because high-degree polynomials can fit noise instead of patterns",
+        "QuestionTopic": "Polynomial Regression",
+        "QuestionReason": "Using high-degree polynomials can lead to overfitting, where the model captures noise instead of actual trends."
+    },
+    {
+        "QuestionId": 107,
+        "QuestionDesc": "What is the primary difference between Linear Regression and Polynomial Regression?",
+        "QuestionOptions": [
+            "Polynomial Regression includes polynomial terms to model non-linear relationships.",
+            "Linear Regression is always more accurate.",
+            "Polynomial Regression cannot be used for predictions.",
+            "Polynomial Regression is only used for categorical data."
+        ],
+        "QuestionAnswer": "Polynomial Regression includes polynomial terms to model non-linear relationships.",
+        "QuestionTopic": "Polynomial Regression",
+        "QuestionReason": "Polynomial Regression extends Linear Regression by including polynomial terms to capture non-linear patterns."
+    },
+    {
+        "QuestionId": 108,
+        "QuestionDesc": "Which of the following is an application of Polynomial Regression?",
+        "QuestionOptions": [
+            "Predicting continuous numerical values with non-linear trends",
+            "Classifying emails as spam or not spam",
+            "Grouping customers into segments",
+            "Identifying faces in an image"
+        ],
+        "QuestionAnswer": "Predicting continuous numerical values with non-linear trends",
+        "QuestionTopic": "Polynomial Regression",
+        "QuestionReason": "Polynomial Regression is used in scenarios where the relationship between variables is non-linear."
+    },
+    {
+        "QuestionId": 109,
+        "QuestionDesc": "Which metric is used to evaluate the performance of a Polynomial Regression model?",
+        "QuestionOptions": [
+            "Mean Squared Error (MSE)",
+            "Silhouette Score",
+            "F1 Score",
+            "Confusion Matrix"
+        ],
+        "QuestionAnswer": "Mean Squared Error (MSE)",
+        "QuestionTopic": "Polynomial Regression",
+        "QuestionReason": "MSE calculates the average squared difference between actual and predicted values."
+    },
+    {
+        "QuestionId": 110,
+        "QuestionDesc": "How can overfitting in Polynomial Regression be prevented?",
+        "QuestionOptions": [
+            "By increasing the polynomial degree",
+            "By reducing data points",
+            "By using regularization techniques like Ridge or Lasso",
+            "By removing the intercept"
+        ],
+        "QuestionAnswer": "By using regularization techniques like Ridge or Lasso",
+        "QuestionTopic": "Polynomial Regression",
+        "QuestionReason": "Regularization techniques like Ridge and Lasso help prevent overfitting by penalizing large coefficients."
+    },
+    {
+        "QuestionId": 201,
+        "QuestionDesc": "What is the primary objective of Logistic Regression?",
+        "QuestionOptions": [
+            "To model binary classification problems",
+            "To model linear relationships",
+            "To reduce dimensionality",
+            "To cluster data"
+        ],
+        "QuestionAnswer": "To model binary classification problems",
+        "QuestionTopic": "Logistic Regression",
+        "QuestionReason": "Logistic Regression is used for binary classification tasks where the outcome variable has two possible values."
+    },
+    {
+        "QuestionId": 202,
+        "QuestionDesc": "Which function is used in Logistic Regression to map predictions between 0 and 1?",
+        "QuestionOptions": [
+            "Sigmoid Function",
+            "ReLU Function",
+            "Linear Function",
+            "Exponential Function"
+        ],
+        "QuestionAnswer": "Sigmoid Function",
+        "QuestionTopic": "Logistic Regression",
+        "QuestionReason": "The sigmoid function maps the log-odds to a probability between 0 and 1, making it suitable for classification."
+    },
+    {
+        "QuestionId": 203,
+        "QuestionDesc": "What is the log-odds (logit) in Logistic Regression?",
+        "QuestionOptions": [
+            "The natural logarithm of the odds of the target variable being 1",
+            "A probability value between 0 and 1",
+            "The sum of squared errors",
+            "A measure of variance"
+        ],
+        "QuestionAnswer": "The natural logarithm of the odds of the target variable being 1",
+        "QuestionTopic": "Logistic Regression",
+        "QuestionReason": "The log-odds is used to transform the linear combination of inputs into a form suitable for classification."
+    },
+    {
+        "QuestionId": 204,
+        "QuestionDesc": "Which type of Logistic Regression is used for multi-class classification?",
+        "QuestionOptions": [
+            "Binary Logistic Regression",
+            "Multinomial Logistic Regression",
+            "Ordinal Logistic Regression",
+            "Polynomial Regression"
+        ],
+        "QuestionAnswer": "Multinomial Logistic Regression",
+        "QuestionTopic": "Logistic Regression",
+        "QuestionReason": "Multinomial Logistic Regression is used when there are more than two outcome categories in the dependent variable."
+    },
+    {
+        "QuestionId": 205,
+        "QuestionDesc": "Which assumption is NOT required for Logistic Regression?",
+        "QuestionOptions": [
+            "The dependent variable must be categorical",
+            "The relationship between independent variables and log-odds is linear",
+            "Independent variables must follow a normal distribution",
+            "Observations should be independent"
+        ],
+        "QuestionAnswer": "Independent variables must follow a normal distribution",
+        "QuestionTopic": "Logistic Regression",
+        "QuestionReason": "Unlike linear regression, logistic regression does not assume that independent variables follow a normal distribution."
+    },
+    {
+        "QuestionId": 206,
+        "QuestionDesc": "Which loss function is typically used to train a Logistic Regression model?",
+        "QuestionOptions": [
+            "Mean Squared Error (MSE)",
+            "Cross-Entropy Loss",
+            "Hinge Loss",
+            "Huber Loss"
+        ],
+        "QuestionAnswer": "Cross-Entropy Loss",
+        "QuestionTopic": "Logistic Regression",
+        "QuestionReason": "Cross-entropy loss measures the difference between actual and predicted probabilities, making it suitable for classification tasks."
+    },
+    {
+        "QuestionId": 207,
+        "QuestionDesc": "What does a threshold of 0.5 in Logistic Regression indicate?",
+        "QuestionOptions": [
+            "Predictions greater than 0.5 are classified as 1, otherwise 0",
+            "Predictions greater than 0.5 are classified as 0, otherwise 1",
+            "It controls the learning rate",
+            "It determines the number of features"
+        ],
+        "QuestionAnswer": "Predictions greater than 0.5 are classified as 1, otherwise 0",
+        "QuestionTopic": "Logistic Regression",
+        "QuestionReason": "A threshold of 0.5 is commonly used to classify outcomes in binary logistic regression."
+    },
+    {
+        "QuestionId": 208,
+        "QuestionDesc": "Which evaluation metric is commonly used for Logistic Regression models?",
+        "QuestionOptions": [
+            "R-squared",
+            "Mean Absolute Error",
+            "Accuracy, Precision, Recall, and ROC-AUC",
+            "Silhouette Score"
+        ],
+        "QuestionAnswer": "Accuracy, Precision, Recall, and ROC-AUC",
+        "QuestionTopic": "Logistic Regression",
+        "QuestionReason": "Metrics like accuracy, precision, recall, and ROC-AUC are used to evaluate the classification performance of logistic regression."
+    },
+    {
+        "QuestionId": 209,
+        "QuestionDesc": "What is one advantage of Logistic Regression?",
+        "QuestionOptions": [
+            "It provides probabilistic predictions",
+            "It can only handle linear relationships",
+            "It requires a large dataset to work",
+            "It always outperforms deep learning models"
+        ],
+        "QuestionAnswer": "It provides probabilistic predictions",
+        "QuestionTopic": "Logistic Regression",
+        "QuestionReason": "Logistic Regression provides probabilities for class predictions, making it useful for decision-making."
+    },
+    {
+        "QuestionId": 210,
+        "QuestionDesc": "How can class imbalance in Logistic Regression be handled?",
+        "QuestionOptions": [
+            "Using techniques like oversampling, undersampling, or class weighting",
+            "Removing some independent variables",
+            "Using only numerical data",
+            "Ignoring the problem"
+        ],
+        "QuestionAnswer": "Using techniques like oversampling, undersampling, or class weighting",
+        "QuestionTopic": "Logistic Regression",
+        "QuestionReason": "Class imbalance can be addressed using oversampling, undersampling, or adjusting class weights in the model."
+    },
+    {
+        "QuestionId": 301,
+        "QuestionDesc": "What is the primary purpose of a Decision Tree?",
+        "QuestionOptions": [
+            "Classification only",
+            "Regression only",
+            "Both classification and regression",
+            "Clustering"
+        ],
+        "QuestionAnswer": "Both classification and regression",
+        "QuestionReason": "Decision Trees are used for both classification and regression tasks.",
+        "QuestionTopic": "Decision Tree"
+    },
+    {
+        "QuestionId": 302,
+        "QuestionDesc": "Which of the following is NOT a key component of a Decision Tree?",
+        "QuestionOptions": [
+            "Root Node",
+            "Hidden Layer",
+            "Leaf Node",
+            "Branches"
+        ],
+        "QuestionAnswer": "Hidden Layer",
+        "QuestionReason": "Hidden layers are part of neural networks, not decision trees.",
+        "QuestionTopic": "Decision Tree"
+    },
+    {
+        "QuestionId": 303,
+        "QuestionDesc": "What is the role of a splitting criterion in Decision Trees?",
+        "QuestionOptions": [
+            "Determine when to stop splitting",
+            "Measure the homogeneity of subsets",
+            "Reduce overfitting",
+            "Prune the tree"
+        ],
+        "QuestionAnswer": "Measure the homogeneity of subsets",
+        "QuestionReason": "Splitting criteria like Gini Impurity and Information Gain help in selecting the best feature to split on.",
+        "QuestionTopic": "Decision Tree"
+    },
+    {
+        "QuestionId": 304,
+        "QuestionDesc": "Which of the following is a commonly used splitting criterion in Decision Trees?",
+        "QuestionOptions": [
+            "Gini Impurity",
+            "Mean Squared Error",
+            "Gradient Descent",
+            "L1 Regularization"
+        ],
+        "QuestionAnswer": "Gini Impurity",
+        "QuestionReason": "Gini Impurity is a common measure of how pure a node is in classification tasks.",
+        "QuestionTopic": "Decision Tree"
+    },
+    {
+        "QuestionId": 305,
+        "QuestionDesc": "What type of Decision Tree is used for continuous target variables?",
+        "QuestionOptions": [
+            "Classification Tree",
+            "Regression Tree",
+            "CART Tree",
+            "Random Tree"
+        ],
+        "QuestionAnswer": "Regression Tree",
+        "QuestionReason": "Regression Trees predict continuous values rather than categorical classes.",
+        "QuestionTopic": "Decision Tree"
+    },
+    {
+        "QuestionId": 306,
+        "QuestionDesc": "Which method can be used to prevent overfitting in Decision Trees?",
+        "QuestionOptions": [
+            "Increasing tree depth",
+            "Pruning",
+            "Adding more nodes",
+            "Using fewer training samples"
+        ],
+        "QuestionAnswer": "Pruning",
+        "QuestionReason": "Pruning helps remove unnecessary branches, reducing the risk of overfitting.",
+        "QuestionTopic": "Decision Tree"
+    },
+    {
+        "QuestionId": 307,
+        "QuestionDesc": "What is the stopping condition in a Decision Tree algorithm?",
+        "QuestionOptions": [
+            "Maximum depth reached",
+            "Minimum samples per node",
+            "No further improvement in splits",
+            "All of the above"
+        ],
+        "QuestionAnswer": "All of the above",
+        "QuestionReason": "Stopping conditions include maximum depth, minimum samples, and lack of improvement in splits.",
+        "QuestionTopic": "Decision Tree"
+    },
+    {
+        "QuestionId": 308,
+        "QuestionDesc": "Which ensemble method improves Decision Tree performance?",
+        "QuestionOptions": [
+            "Random Forest",
+            "K-Means Clustering",
+            "Principal Component Analysis",
+            "Linear Regression"
+        ],
+        "QuestionAnswer": "Random Forest",
+        "QuestionReason": "Random Forest combines multiple decision trees to improve performance and reduce overfitting.",
+        "QuestionTopic": "Decision Tree"
+    },
+    {
+        "QuestionId": 309,
+        "QuestionDesc": "Which disadvantage is associated with Decision Trees?",
+        "QuestionOptions": [
+            "High bias",
+            "Overfitting",
+            "Difficult interpretation",
+            "High computational cost"
+        ],
+        "QuestionAnswer": "Overfitting",
+        "QuestionReason": "Decision Trees are prone to overfitting, especially when deep.",
+        "QuestionTopic": "Decision Tree"
+    },
+    {
+        "QuestionId": 310,
+        "QuestionDesc": "What is pruning in Decision Trees?",
+        "QuestionOptions": [
+            "Removing redundant branches",
+            "Splitting nodes further",
+            "Expanding the tree",
+            "Increasing computational complexity"
+        ],
+        "QuestionAnswer": "Removing redundant branches",
+        "QuestionReason": "Pruning removes unnecessary parts of the tree to improve generalization.",
+        "QuestionTopic": "Decision Tree"
+    },
+    {
+        "QuestionId": 401,
+        "QuestionDesc": "What is the main purpose of a Random Forest model?",
+        "QuestionOptions": [
+            "To build a single decision tree",
+            "To combine multiple decision trees for better accuracy",
+            "To perform clustering",
+            "To reduce dataset size"
+        ],
+        "QuestionAnswer": "To combine multiple decision trees for better accuracy",
+        "QuestionReason": "Random Forest is an ensemble method that aggregates multiple decision trees to improve accuracy and reduce overfitting.",
+        "QuestionTopic": "Random Forest"
+    },
+    {
+        "QuestionId": 402,
+        "QuestionDesc": "Which of the following techniques is used in Random Forest to ensure diversity among trees?",
+        "QuestionOptions": [
+            "Boosting",
+            "Bagging",
+            "Gradient Descent",
+            "Regularization"
+        ],
+        "QuestionAnswer": "Bagging",
+        "QuestionReason": "Bagging (Bootstrap Aggregating) ensures diversity by training each decision tree on a different random subset of the dataset.",
+        "QuestionTopic": "Random Forest"
+    },
+    {
+        "QuestionId": 403,
+        "QuestionDesc": "What is the advantage of using Random Forest over a single decision tree?",
+        "QuestionOptions": [
+            "Higher interpretability",
+            "Less computational power required",
+            "Less prone to overfitting",
+            "Always provides 100% accuracy"
+        ],
+        "QuestionAnswer": "Less prone to overfitting",
+        "QuestionReason": "Random Forest reduces overfitting by averaging multiple decision trees, making the model more generalized.",
+        "QuestionTopic": "Random Forest"
+    },
+    {
+        "QuestionId": 404,
+        "QuestionDesc": "How does Random Forest handle missing values?",
+        "QuestionOptions": [
+            "Removes missing data points",
+            "Uses mean imputation",
+            "Can handle missing values internally",
+            "Ignores missing values"
+        ],
+        "QuestionAnswer": "Can handle missing values internally",
+        "QuestionReason": "Random Forest can handle missing values by using surrogate splits or by averaging predictions from multiple trees.",
+        "QuestionTopic": "Random Forest"
+    },
+    {
+        "QuestionId": 405,
+        "QuestionDesc": "What is the function of Bootstrap Aggregation (Bagging) in Random Forest?",
+        "QuestionOptions": [
+            "To improve interpretability",
+            "To create diverse trees by sampling data with replacement",
+            "To reduce the number of trees",
+            "To increase bias"
+        ],
+        "QuestionAnswer": "To create diverse trees by sampling data with replacement",
+        "QuestionReason": "Bagging allows each tree in the Random Forest to be trained on a different subset of the dataset, reducing overfitting.",
+        "QuestionTopic": "Random Forest"
+    },
+    {
+        "QuestionId": 501,
+        "QuestionDesc": "What is the primary objective of a Support Vector Machine (SVM)?",
+        "QuestionOptions": [
+            "To minimize classification error by reducing bias",
+            "To maximize the margin between classes",
+            "To cluster similar data points together",
+            "To create multiple decision trees"
+        ],
+        "QuestionAnswer": "To maximize the margin between classes",
+        "QuestionReason": "SVM aims to find the hyperplane that maximizes the margin between different classes for better generalization.",
+        "QuestionTopic": "Support Vector Machine"
+    },
+    {
+        "QuestionId": 502,
+        "QuestionDesc": "Which data points influence the position of the SVM hyperplane?",
+        "QuestionOptions": [
+            "All data points",
+            "Support vectors",
+            "Only outliers",
+            "Randomly selected points"
+        ],
+        "QuestionAnswer": "Support vectors",
+        "QuestionReason": "Support vectors are the closest data points to the hyperplane and determine its optimal placement.",
+        "QuestionTopic": "Support Vector Machine"
+    },
+    {
+        "QuestionId": 503,
+        "QuestionDesc": "What role does the kernel function play in SVM?",
+        "QuestionOptions": [
+            "It reduces the number of features in the dataset",
+            "It helps in visualizing data distributions",
+            "It transforms non-linearly separable data into a higher-dimensional space",
+            "It normalizes feature values"
+        ],
+        "QuestionAnswer": "It transforms non-linearly separable data into a higher-dimensional space",
+        "QuestionReason": "Kernels like RBF and polynomial allow SVM to handle complex data distributions by mapping them to higher dimensions.",
+        "QuestionTopic": "Support Vector Machine"
+    },
+    {
+        "QuestionId": 504,
+        "QuestionDesc": "Which of the following is NOT a commonly used SVM kernel function?",
+        "QuestionOptions": [
+            "Polynomial kernel",
+            "Radial Basis Function (RBF) kernel",
+            "Sigmoid kernel",
+            "Mean kernel"
+        ],
+        "QuestionAnswer": "Mean kernel",
+        "QuestionReason": "Mean kernel is not a standard SVM kernel, whereas polynomial, RBF, and sigmoid are commonly used.",
+        "QuestionTopic": "Support Vector Machine"
+    },
+    {
+        "QuestionId": 505,
+        "QuestionDesc": "What does the regularization parameter (C) control in SVM?",
+        "QuestionOptions": [
+            "The number of support vectors",
+            "The trade-off between margin maximization and classification error",
+            "The number of kernel functions used",
+            "The dimensionality of the feature space"
+        ],
+        "QuestionAnswer": "The trade-off between margin maximization and classification error",
+        "QuestionReason": "A higher C value leads to lower bias but may cause overfitting, while a lower C results in a larger margin with some misclassifications.",
+        "QuestionTopic": "Support Vector Machine"
+    },
+    {
+        "QuestionId": 601,
+        "QuestionDesc": "What assumption does Naive Bayes make about feature independence?",
+        "QuestionOptions": [
+            "Features are dependent on each other",
+            "Features are conditionally independent given the class",
+            "All features have equal importance",
+            "Feature dependence is learned during training"
+        ],
+        "QuestionAnswer": "Features are conditionally independent given the class",
+        "QuestionReason": "Naive Bayes assumes that features are independent of each other given the class label, making it 'naive'.",
+        "QuestionTopic": "Naive Bayes"
+    },
+    {
+        "QuestionId": 602,
+        "QuestionDesc": "Which type of Naive Bayes is best suited for text classification?",
+        "QuestionOptions": [
+            "Gaussian Naive Bayes",
+            "Multinomial Naive Bayes",
+            "Bernoulli Naive Bayes",
+            "Bayesian Network"
+        ],
+        "QuestionAnswer": "Multinomial Naive Bayes",
+        "QuestionReason": "Multinomial Naive Bayes is used for text data where features represent word frequencies or counts.",
+        "QuestionTopic": "Naive Bayes"
+    },
+    {
+        "QuestionId": 701,
+        "QuestionDesc": "How does K-Nearest Neighbors (KNN) classify a new data point?",
+        "QuestionOptions": [
+            "By creating a decision boundary",
+            "By assigning it to the majority class among its k nearest neighbors",
+            "By using probability distributions",
+            "By training multiple decision trees"
+        ],
+        "QuestionAnswer": "By assigning it to the majority class among its k nearest neighbors",
+        "QuestionReason": "KNN assigns a data point to the class that appears most frequently among its k nearest neighbors.",
+        "QuestionTopic": "K-Nearest Neighbours"
+    },
+    {
+        "QuestionId": 702,
+        "QuestionDesc": "What happens if the value of k in KNN is too small?",
+        "QuestionOptions": [
+            "The model becomes more generalized",
+            "The model becomes more sensitive to noise",
+            "The model ignores the distance metric",
+            "The model requires feature scaling"
+        ],
+        "QuestionAnswer": "The model becomes more sensitive to noise",
+        "QuestionReason": "A small k value leads to high variance, making the model more prone to overfitting and noise in the data.",
+        "QuestionTopic": "K-Nearest Neighbours"
+    },
+    {
+        "QuestionId": 801,
+        "QuestionDesc": "What is the primary purpose of Ridge Regression?",
+        "QuestionOptions": [
+            "To reduce the effect of correlated features",
+            "To increase the variance of model predictions",
+            "To maximize the coefficients",
+            "To remove irrelevant features"
+        ],
+        "QuestionAnswer": "To reduce the effect of correlated features",
+        "QuestionReason": "Ridge Regression adds an L2 penalty to prevent large coefficients, which helps in handling multicollinearity.",
+        "QuestionTopic": "Ridge Regression"
+    },
+    {
+        "QuestionId": 802,
+        "QuestionDesc": "Which term does Ridge Regression add to the cost function?",
+        "QuestionOptions": [
+            "L1 norm of coefficients",
+            "Sum of squared coefficients",
+            "Entropy of features",
+            "Feature interactions"
+        ],
+        "QuestionAnswer": "Sum of squared coefficients",
+        "QuestionReason": "Ridge Regression adds the L2 regularization term, which is the sum of squared coefficients, to the cost function.",
+        "QuestionTopic": "Ridge Regression"
+    },
+    {
+        "QuestionId": 901,
+        "QuestionDesc": "What is the primary advantage of Lasso Regression over standard Linear Regression?",
+        "QuestionOptions": [
+            "Reduces multicollinearity",
+            "Automatically selects important features",
+            "Performs non-linear transformation",
+            "Increases model complexity"
+        ],
+        "QuestionAnswer": "Automatically selects important features",
+        "QuestionTopic": "Lasso Regression",
+        "QuestionReason": "Lasso Regression applies L1 regularization, shrinking some coefficients to zero, thereby performing automatic feature selection."
+    },
+    {
+        "QuestionId": 902,
+        "QuestionDesc": "Which type of regularization is used in Lasso Regression?",
+        "QuestionOptions": [
+            "L1",
+            "L2",
+            "Elastic Net",
+            "Ridge"
+        ],
+        "QuestionAnswer": "L1",
+        "QuestionTopic": "Lasso Regression",
+        "QuestionReason": "Lasso Regression uses L1 regularization, which penalizes the absolute values of the coefficients."
+    },
+    {
+        "QuestionId": 1001,
+        "QuestionDesc": "What is the key assumption in K-Means clustering?",
+        "QuestionOptions": [
+            "Clusters are spherical and evenly sized",
+            "Data follows a normal distribution",
+            "All features are categorical",
+            "The number of clusters is unknown"
+        ],
+        "QuestionAnswer": "Clusters are spherical and evenly sized",
+        "QuestionTopic": "K Means",
+        "QuestionReason": "K-Means assumes clusters are convex, spherical, and of similar size for best performance."
+    },
+    {
+        "QuestionId": 1002,
+        "QuestionDesc": "Which method is commonly used to initialize centroids in K-Means?",
+        "QuestionOptions": [
+            "Random initialization",
+            "K-Means++",
+            "Hierarchical clustering",
+            "PCA"
+        ],
+        "QuestionAnswer": "K-Means++",
+        "QuestionTopic": "K Means",
+        "QuestionReason": "K-Means++ improves the selection of initial centroids to reduce convergence time and avoid poor clustering."
+    },
+    {
+        "QuestionId": 1101,
+        "QuestionDesc": "How does K-Medoids differ from K-Means?",
+        "QuestionOptions": [
+            "It selects actual data points as cluster centers",
+            "It is used only for large datasets",
+            "It does not require the number of clusters",
+            "It does not require distance metrics"
+        ],
+        "QuestionAnswer": "It selects actual data points as cluster centers",
+        "QuestionTopic": "K Medoids",
+        "QuestionReason": "Unlike K-Means, K-Medoids chooses actual data points (medoids) as cluster centers, making it more robust to outliers."
+    },
+    {
+        "QuestionId": 1102,
+        "QuestionDesc": "What is a key advantage of K-Medoids over K-Means?",
+        "QuestionOptions": [
+            "Less sensitive to outliers",
+            "Requires fewer iterations",
+            "Works only with numeric data",
+            "Does not require defining K in advance"
+        ],
+        "QuestionAnswer": "Less sensitive to outliers",
+        "QuestionTopic": "K Medoids",
+        "QuestionReason": "Since K-Medoids selects actual data points as centers, it is more robust to outliers compared to K-Means."
+    },
+    {
+        "QuestionId": 1201,
+        "QuestionDesc": "What is the primary goal of supervised learning?",
+        "QuestionOptions": [
+            "To find hidden patterns in data without labels",
+            "To learn from labeled data and make predictions",
+            "To group similar data points together",
+            "To reduce the dimensionality of data"
+        ],
+        "QuestionAnswer": "To learn from labeled data and make predictions",
+        "QuestionTopic": "General",
+        "QuestionReason": "Supervised learning algorithms learn from labeled data to make accurate predictions or classifications."
+    },
+    {
+        "QuestionId": 1202,
+        "QuestionDesc": "Which of the following is an unsupervised learning algorithm?",
+        "QuestionOptions": [
+            "Linear Regression",
+            "Decision Tree",
+            "K-Means Clustering",
+            "Logistic Regression"
+        ],
+        "QuestionAnswer": "K-Means Clustering",
+        "QuestionTopic": "General",
+        "QuestionReason": "K-Means Clustering is an unsupervised algorithm used for grouping similar data points without predefined labels."
+    },
+    {
+        "QuestionId": 1203,
+        "QuestionDesc": "Which evaluation metric is most commonly used for classification tasks?",
+        "QuestionOptions": [
+            "Mean Squared Error",
+            "R-Squared",
+            "Accuracy",
+            "Root Mean Squared Error"
+        ],
+        "QuestionAnswer": "Accuracy",
+        "QuestionTopic": "General",
+        "QuestionReason": "Accuracy is widely used in classification to measure the percentage of correctly classified instances."
+    },
+    {
+        "QuestionId": 1204,
+        "QuestionDesc": "What is overfitting in machine learning?",
+        "QuestionOptions": [
+            "When the model performs well on both training and test data",
+            "When the model memorizes training data but fails on new data",
+            "When the model ignores important features",
+            "When the model underperforms on both training and test data"
+        ],
+        "QuestionAnswer": "When the model memorizes training data but fails on new data",
+        "QuestionTopic": "General",
+        "QuestionReason": "Overfitting occurs when a model learns patterns specific to training data but does not generalize well to unseen data."
+    },
+    {
+        "QuestionId": 1205,
+        "QuestionDesc": "Which technique can be used to reduce overfitting?",
+        "QuestionOptions": [
+            "Increasing the complexity of the model",
+            "Using dropout in neural networks",
+            "Training on fewer data samples",
+            "Using a very small learning rate"
+        ],
+        "QuestionAnswer": "Using dropout in neural networks",
+        "QuestionTopic": "General",
+        "QuestionReason": "Dropout randomly disables neurons during training to prevent overfitting and improve generalization."
+    },
+    {
+        "QuestionId": 1206,
+        "QuestionDesc": "What is the purpose of cross-validation in machine learning?",
+        "QuestionOptions": [
+            "To improve model accuracy on the training data",
+            "To check the performance of the model on unseen data",
+            "To reduce the number of features",
+            "To increase the training dataset size"
+        ],
+        "QuestionAnswer": "To check the performance of the model on unseen data",
+        "QuestionTopic": "General",
+        "QuestionReason": "Cross-validation helps evaluate how well a model generalizes to unseen data by splitting data into training and validation sets."
+    }
+]

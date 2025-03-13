@@ -1,0 +1,1302 @@
+[
+    {
+        "QuestionId": 1,
+        "QuestionDesc": "What is the primary objective of Linear Regression?",
+        "QuestionOptions": [
+            "To classify data points",
+            "To establish a linear relationship",
+            "To cluster data",
+            "To reduce dimensions"
+        ],
+        "QuestionAnswer": "To establish a linear relationship",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Linear Regression aims to model the relationship between dependent and independent variables."
+    },
+    {
+        "QuestionId": 2,
+        "QuestionDesc": "Which assumption is not required for Linear Regression?",
+        "QuestionOptions": [
+            "Linearity",
+            "Multicollinearity",
+            "Homoscedasticity",
+            "Normality of residuals"
+        ],
+        "QuestionAnswer": "Multicollinearity",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Multicollinearity affects coefficients but is not an assumption of Linear Regression."
+    },
+    {
+        "QuestionId": 3,
+        "QuestionDesc": "What is the role of the intercept in a Linear Regression model?",
+        "QuestionOptions": [
+            "Defines the slope",
+            "Shifts the regression line",
+            "Determines correlation",
+            "Has no role"
+        ],
+        "QuestionAnswer": "Shifts the regression line",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "The intercept represents the expected value when all predictors are zero."
+    },
+    {
+        "QuestionId": 4,
+        "QuestionDesc": "Which evaluation metric is commonly used for Linear Regression?",
+        "QuestionOptions": [
+            "Accuracy",
+            "Mean Squared Error",
+            "F1-score",
+            "Silhouette Score"
+        ],
+        "QuestionAnswer": "Mean Squared Error",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "MSE measures the average squared difference between actual and predicted values."
+    },
+    {
+        "QuestionId": 5,
+        "QuestionDesc": "How does the Ordinary Least Squares (OLS) method work?",
+        "QuestionOptions": [
+            "Maximizes residuals",
+            "Minimizes sum of squared residuals",
+            "Uses gradient boosting",
+            "Applies decision trees"
+        ],
+        "QuestionAnswer": "Minimizes sum of squared residuals",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "OLS finds the best-fitting line by minimizing the squared differences between actual and predicted values."
+    },
+    {
+        "QuestionId": 6,
+        "QuestionDesc": "Which of the following affects the slope in Linear Regression?",
+        "QuestionOptions": [
+            "Feature scaling",
+            "Outliers",
+            "Learning rate",
+            "Number of observations"
+        ],
+        "QuestionAnswer": "Outliers",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Outliers can significantly influence the slope by pulling the regression line."
+    },
+    {
+        "QuestionId": 7,
+        "QuestionDesc": "What does R-squared measure in a Linear Regression model?",
+        "QuestionOptions": [
+            "Model complexity",
+            "Percentage of variance explained",
+            "Bias-variance tradeoff",
+            "Significance of predictors"
+        ],
+        "QuestionAnswer": "Percentage of variance explained",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "R-squared indicates how well the independent variables explain the variance in the dependent variable."
+    },
+    {
+        "QuestionId": 8,
+        "QuestionDesc": "What happens if a dataset violates the assumption of homoscedasticity?",
+        "QuestionOptions": [
+            "Linear Regression remains unaffected",
+            "Prediction accuracy improves",
+            "Errors become heteroscedastic",
+            "Multicollinearity occurs"
+        ],
+        "QuestionAnswer": "Errors become heteroscedastic",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Heteroscedasticity means that the variance of residuals is not constant, affecting model reliability."
+    },
+    {
+        "QuestionId": 9,
+        "QuestionDesc": "Why is feature scaling generally not required for Linear Regression?",
+        "QuestionOptions": [
+            "Coefficients are unaffected",
+            "Linear models do not involve distance calculations",
+            "Scaling is always required",
+            "Regression uses standardization"
+        ],
+        "QuestionAnswer": "Linear models do not involve distance calculations",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Unlike algorithms like KNN, Linear Regression does not rely on distance-based calculations."
+    },
+    {
+        "QuestionId": 10,
+        "QuestionDesc": "Which of the following indicates multicollinearity in Linear Regression?",
+        "QuestionOptions": [
+            "Low R-squared value",
+            "High Variance Inflation Factor (VIF)",
+            "Skewed residuals",
+            "Heteroscedasticity"
+        ],
+        "QuestionAnswer": "High Variance Inflation Factor (VIF)",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "A high VIF indicates that independent variables are highly correlated, affecting coefficient reliability."
+    },
+    {
+        "QuestionId": 11,
+        "QuestionDesc": "What is the primary objective of Linear Regression?",
+        "QuestionOptions": [
+            "To classify data points",
+            "To establish a linear relationship",
+            "To cluster data",
+            "To reduce dimensions"
+        ],
+        "QuestionAnswer": "To establish a linear relationship",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Linear Regression aims to model the relationship between dependent and independent variables."
+    },
+    {
+        "QuestionId": 12,
+        "QuestionDesc": "Which assumption is not required for Linear Regression?",
+        "QuestionOptions": [
+            "Linearity",
+            "Multicollinearity",
+            "Homoscedasticity",
+            "Normality of residuals"
+        ],
+        "QuestionAnswer": "Multicollinearity",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Multicollinearity affects coefficients but is not an assumption of Linear Regression."
+    },
+    {
+        "QuestionId": 13,
+        "QuestionDesc": "What is the role of the intercept in a Linear Regression model?",
+        "QuestionOptions": [
+            "Defines the slope",
+            "Shifts the regression line",
+            "Determines correlation",
+            "Has no role"
+        ],
+        "QuestionAnswer": "Shifts the regression line",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "The intercept represents the expected value when all predictors are zero."
+    },
+    {
+        "QuestionId": 14,
+        "QuestionDesc": "Which evaluation metric is commonly used for Linear Regression?",
+        "QuestionOptions": [
+            "Accuracy",
+            "Mean Squared Error",
+            "F1-score",
+            "Silhouette Score"
+        ],
+        "QuestionAnswer": "Mean Squared Error",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "MSE measures the average squared difference between actual and predicted values."
+    },
+    {
+        "QuestionId": 15,
+        "QuestionDesc": "How does the Ordinary Least Squares (OLS) method work?",
+        "QuestionOptions": [
+            "Maximizes residuals",
+            "Minimizes sum of squared residuals",
+            "Uses gradient boosting",
+            "Applies decision trees"
+        ],
+        "QuestionAnswer": "Minimizes sum of squared residuals",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "OLS finds the best-fitting line by minimizing the squared differences between actual and predicted values."
+    },
+    {
+        "QuestionId": 16,
+        "QuestionDesc": "Which of the following affects the slope in Linear Regression?",
+        "QuestionOptions": [
+            "Feature scaling",
+            "Outliers",
+            "Learning rate",
+            "Number of observations"
+        ],
+        "QuestionAnswer": "Outliers",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Outliers can significantly influence the slope by pulling the regression line."
+    },
+    {
+        "QuestionId": 17,
+        "QuestionDesc": "What does R-squared measure in a Linear Regression model?",
+        "QuestionOptions": [
+            "Model complexity",
+            "Percentage of variance explained",
+            "Bias-variance tradeoff",
+            "Significance of predictors"
+        ],
+        "QuestionAnswer": "Percentage of variance explained",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "R-squared indicates how well the independent variables explain the variance in the dependent variable."
+    },
+    {
+        "QuestionId": 18,
+        "QuestionDesc": "What happens if a dataset violates the assumption of homoscedasticity?",
+        "QuestionOptions": [
+            "Linear Regression remains unaffected",
+            "Prediction accuracy improves",
+            "Errors become heteroscedastic",
+            "Multicollinearity occurs"
+        ],
+        "QuestionAnswer": "Errors become heteroscedastic",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Heteroscedasticity means that the variance of residuals is not constant, affecting model reliability."
+    },
+    {
+        "QuestionId": 19,
+        "QuestionDesc": "Why is feature scaling generally not required for Linear Regression?",
+        "QuestionOptions": [
+            "Coefficients are unaffected",
+            "Linear models do not involve distance calculations",
+            "Scaling is always required",
+            "Regression uses standardization"
+        ],
+        "QuestionAnswer": "Linear models do not involve distance calculations",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Unlike algorithms like KNN, Linear Regression does not rely on distance-based calculations."
+    },
+    {
+        "QuestionId": 20,
+        "QuestionDesc": "Which of the following indicates multicollinearity in Linear Regression?",
+        "QuestionOptions": [
+            "Low R-squared value",
+            "High Variance Inflation Factor (VIF)",
+            "Skewed residuals",
+            "Heteroscedasticity"
+        ],
+        "QuestionAnswer": "High Variance Inflation Factor (VIF)",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "A high VIF indicates that independent variables are highly correlated, affecting coefficient reliability."
+    },
+    {
+        "QuestionId": 21,
+        "QuestionDesc": "What is the primary objective of Linear Regression?",
+        "QuestionOptions": [
+            "To classify data points",
+            "To establish a linear relationship",
+            "To cluster data",
+            "To reduce dimensions"
+        ],
+        "QuestionAnswer": "To establish a linear relationship",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Linear Regression aims to model the relationship between dependent and independent variables."
+    },
+    {
+        "QuestionId": 22,
+        "QuestionDesc": "Which assumption is not required for Linear Regression?",
+        "QuestionOptions": [
+            "Linearity",
+            "Multicollinearity",
+            "Homoscedasticity",
+            "Normality of residuals"
+        ],
+        "QuestionAnswer": "Multicollinearity",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Multicollinearity affects coefficients but is not an assumption of Linear Regression."
+    },
+    {
+        "QuestionId": 23,
+        "QuestionDesc": "What is the role of the intercept in a Linear Regression model?",
+        "QuestionOptions": [
+            "Defines the slope",
+            "Shifts the regression line",
+            "Determines correlation",
+            "Has no role"
+        ],
+        "QuestionAnswer": "Shifts the regression line",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "The intercept represents the expected value when all predictors are zero."
+    },
+    {
+        "QuestionId": 24,
+        "QuestionDesc": "Which evaluation metric is commonly used for Linear Regression?",
+        "QuestionOptions": [
+            "Accuracy",
+            "Mean Squared Error",
+            "F1-score",
+            "Silhouette Score"
+        ],
+        "QuestionAnswer": "Mean Squared Error",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "MSE measures the average squared difference between actual and predicted values."
+    },
+    {
+        "QuestionId": 25,
+        "QuestionDesc": "How does the Ordinary Least Squares (OLS) method work?",
+        "QuestionOptions": [
+            "Maximizes residuals",
+            "Minimizes sum of squared residuals",
+            "Uses gradient boosting",
+            "Applies decision trees"
+        ],
+        "QuestionAnswer": "Minimizes sum of squared residuals",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "OLS finds the best-fitting line by minimizing the squared differences between actual and predicted values."
+    },
+    {
+        "QuestionId": 26,
+        "QuestionDesc": "Which of the following affects the slope in Linear Regression?",
+        "QuestionOptions": [
+            "Feature scaling",
+            "Outliers",
+            "Learning rate",
+            "Number of observations"
+        ],
+        "QuestionAnswer": "Outliers",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Outliers can significantly influence the slope by pulling the regression line."
+    },
+    {
+        "QuestionId": 27,
+        "QuestionDesc": "What does R-squared measure in a Linear Regression model?",
+        "QuestionOptions": [
+            "Model complexity",
+            "Percentage of variance explained",
+            "Bias-variance tradeoff",
+            "Significance of predictors"
+        ],
+        "QuestionAnswer": "Percentage of variance explained",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "R-squared indicates how well the independent variables explain the variance in the dependent variable."
+    },
+    {
+        "QuestionId": 28,
+        "QuestionDesc": "What happens if a dataset violates the assumption of homoscedasticity?",
+        "QuestionOptions": [
+            "Linear Regression remains unaffected",
+            "Prediction accuracy improves",
+            "Errors become heteroscedastic",
+            "Multicollinearity occurs"
+        ],
+        "QuestionAnswer": "Errors become heteroscedastic",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Heteroscedasticity means that the variance of residuals is not constant, affecting model reliability."
+    },
+    {
+        "QuestionId": 29,
+        "QuestionDesc": "Why is feature scaling generally not required for Linear Regression?",
+        "QuestionOptions": [
+            "Coefficients are unaffected",
+            "Linear models do not involve distance calculations",
+            "Scaling is always required",
+            "Regression uses standardization"
+        ],
+        "QuestionAnswer": "Linear models do not involve distance calculations",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Unlike algorithms like KNN, Linear Regression does not rely on distance-based calculations."
+    },
+    {
+        "QuestionId": 30,
+        "QuestionDesc": "Which of the following indicates multicollinearity in Linear Regression?",
+        "QuestionOptions": [
+            "Low R-squared value",
+            "High Variance Inflation Factor (VIF)",
+            "Skewed residuals",
+            "Heteroscedasticity"
+        ],
+        "QuestionAnswer": "High Variance Inflation Factor (VIF)",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "A high VIF indicates that independent variables are highly correlated, affecting coefficient reliability."
+    },
+    {
+        "QuestionId": 31,
+        "QuestionDesc": "What is the primary objective of Linear Regression?",
+        "QuestionOptions": [
+            "To classify data points",
+            "To establish a linear relationship",
+            "To cluster data",
+            "To reduce dimensions"
+        ],
+        "QuestionAnswer": "To establish a linear relationship",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Linear Regression aims to model the relationship between dependent and independent variables."
+    },
+    {
+        "QuestionId": 32,
+        "QuestionDesc": "Which assumption is not required for Linear Regression?",
+        "QuestionOptions": [
+            "Linearity",
+            "Multicollinearity",
+            "Homoscedasticity",
+            "Normality of residuals"
+        ],
+        "QuestionAnswer": "Multicollinearity",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Multicollinearity affects coefficients but is not an assumption of Linear Regression."
+    },
+    {
+        "QuestionId": 33,
+        "QuestionDesc": "What is the role of the intercept in a Linear Regression model?",
+        "QuestionOptions": [
+            "Defines the slope",
+            "Shifts the regression line",
+            "Determines correlation",
+            "Has no role"
+        ],
+        "QuestionAnswer": "Shifts the regression line",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "The intercept represents the expected value when all predictors are zero."
+    },
+    {
+        "QuestionId": 34,
+        "QuestionDesc": "Which evaluation metric is commonly used for Linear Regression?",
+        "QuestionOptions": [
+            "Accuracy",
+            "Mean Squared Error",
+            "F1-score",
+            "Silhouette Score"
+        ],
+        "QuestionAnswer": "Mean Squared Error",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "MSE measures the average squared difference between actual and predicted values."
+    },
+    {
+        "QuestionId": 35,
+        "QuestionDesc": "How does the Ordinary Least Squares (OLS) method work?",
+        "QuestionOptions": [
+            "Maximizes residuals",
+            "Minimizes sum of squared residuals",
+            "Uses gradient boosting",
+            "Applies decision trees"
+        ],
+        "QuestionAnswer": "Minimizes sum of squared residuals",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "OLS finds the best-fitting line by minimizing the squared differences between actual and predicted values."
+    },
+    {
+        "QuestionId": 36,
+        "QuestionDesc": "Which of the following affects the slope in Linear Regression?",
+        "QuestionOptions": [
+            "Feature scaling",
+            "Outliers",
+            "Learning rate",
+            "Number of observations"
+        ],
+        "QuestionAnswer": "Outliers",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Outliers can significantly influence the slope by pulling the regression line."
+    },
+    {
+        "QuestionId": 37,
+        "QuestionDesc": "What does R-squared measure in a Linear Regression model?",
+        "QuestionOptions": [
+            "Model complexity",
+            "Percentage of variance explained",
+            "Bias-variance tradeoff",
+            "Significance of predictors"
+        ],
+        "QuestionAnswer": "Percentage of variance explained",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "R-squared indicates how well the independent variables explain the variance in the dependent variable."
+    },
+    {
+        "QuestionId": 38,
+        "QuestionDesc": "What happens if a dataset violates the assumption of homoscedasticity?",
+        "QuestionOptions": [
+            "Linear Regression remains unaffected",
+            "Prediction accuracy improves",
+            "Errors become heteroscedastic",
+            "Multicollinearity occurs"
+        ],
+        "QuestionAnswer": "Errors become heteroscedastic",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Heteroscedasticity means that the variance of residuals is not constant, affecting model reliability."
+    },
+    {
+        "QuestionId": 39,
+        "QuestionDesc": "Why is feature scaling generally not required for Linear Regression?",
+        "QuestionOptions": [
+            "Coefficients are unaffected",
+            "Linear models do not involve distance calculations",
+            "Scaling is always required",
+            "Regression uses standardization"
+        ],
+        "QuestionAnswer": "Linear models do not involve distance calculations",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Unlike algorithms like KNN, Linear Regression does not rely on distance-based calculations."
+    },
+    {
+        "QuestionId": 40,
+        "QuestionDesc": "Which of the following indicates multicollinearity in Linear Regression?",
+        "QuestionOptions": [
+            "Low R-squared value",
+            "High Variance Inflation Factor (VIF)",
+            "Skewed residuals",
+            "Heteroscedasticity"
+        ],
+        "QuestionAnswer": "High Variance Inflation Factor (VIF)",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "A high VIF indicates that independent variables are highly correlated, affecting coefficient reliability."
+    },
+    {
+        "QuestionId": 41,
+        "QuestionDesc": "What is the primary objective of Linear Regression?",
+        "QuestionOptions": [
+            "To classify data points",
+            "To establish a linear relationship",
+            "To cluster data",
+            "To reduce dimensions"
+        ],
+        "QuestionAnswer": "To establish a linear relationship",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Linear Regression aims to model the relationship between dependent and independent variables."
+    },
+    {
+        "QuestionId": 42,
+        "QuestionDesc": "Which assumption is not required for Linear Regression?",
+        "QuestionOptions": [
+            "Linearity",
+            "Multicollinearity",
+            "Homoscedasticity",
+            "Normality of residuals"
+        ],
+        "QuestionAnswer": "Multicollinearity",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Multicollinearity affects coefficients but is not an assumption of Linear Regression."
+    },
+    {
+        "QuestionId": 43,
+        "QuestionDesc": "What is the role of the intercept in a Linear Regression model?",
+        "QuestionOptions": [
+            "Defines the slope",
+            "Shifts the regression line",
+            "Determines correlation",
+            "Has no role"
+        ],
+        "QuestionAnswer": "Shifts the regression line",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "The intercept represents the expected value when all predictors are zero."
+    },
+    {
+        "QuestionId": 44,
+        "QuestionDesc": "Which evaluation metric is commonly used for Linear Regression?",
+        "QuestionOptions": [
+            "Accuracy",
+            "Mean Squared Error",
+            "F1-score",
+            "Silhouette Score"
+        ],
+        "QuestionAnswer": "Mean Squared Error",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "MSE measures the average squared difference between actual and predicted values."
+    },
+    {
+        "QuestionId": 45,
+        "QuestionDesc": "How does the Ordinary Least Squares (OLS) method work?",
+        "QuestionOptions": [
+            "Maximizes residuals",
+            "Minimizes sum of squared residuals",
+            "Uses gradient boosting",
+            "Applies decision trees"
+        ],
+        "QuestionAnswer": "Minimizes sum of squared residuals",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "OLS finds the best-fitting line by minimizing the squared differences between actual and predicted values."
+    },
+    {
+        "QuestionId": 46,
+        "QuestionDesc": "Which of the following affects the slope in Linear Regression?",
+        "QuestionOptions": [
+            "Feature scaling",
+            "Outliers",
+            "Learning rate",
+            "Number of observations"
+        ],
+        "QuestionAnswer": "Outliers",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Outliers can significantly influence the slope by pulling the regression line."
+    },
+    {
+        "QuestionId": 47,
+        "QuestionDesc": "What does R-squared measure in a Linear Regression model?",
+        "QuestionOptions": [
+            "Model complexity",
+            "Percentage of variance explained",
+            "Bias-variance tradeoff",
+            "Significance of predictors"
+        ],
+        "QuestionAnswer": "Percentage of variance explained",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "R-squared indicates how well the independent variables explain the variance in the dependent variable."
+    },
+    {
+        "QuestionId": 48,
+        "QuestionDesc": "What happens if a dataset violates the assumption of homoscedasticity?",
+        "QuestionOptions": [
+            "Linear Regression remains unaffected",
+            "Prediction accuracy improves",
+            "Errors become heteroscedastic",
+            "Multicollinearity occurs"
+        ],
+        "QuestionAnswer": "Errors become heteroscedastic",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Heteroscedasticity means that the variance of residuals is not constant, affecting model reliability."
+    },
+    {
+        "QuestionId": 49,
+        "QuestionDesc": "Why is feature scaling generally not required for Linear Regression?",
+        "QuestionOptions": [
+            "Coefficients are unaffected",
+            "Linear models do not involve distance calculations",
+            "Scaling is always required",
+            "Regression uses standardization"
+        ],
+        "QuestionAnswer": "Linear models do not involve distance calculations",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Unlike algorithms like KNN, Linear Regression does not rely on distance-based calculations."
+    },
+    {
+        "QuestionId": 50,
+        "QuestionDesc": "Which of the following indicates multicollinearity in Linear Regression?",
+        "QuestionOptions": [
+            "Low R-squared value",
+            "High Variance Inflation Factor (VIF)",
+            "Skewed residuals",
+            "Heteroscedasticity"
+        ],
+        "QuestionAnswer": "High Variance Inflation Factor (VIF)",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "A high VIF indicates that independent variables are highly correlated, affecting coefficient reliability."
+    },
+    {
+        "QuestionId": 51,
+        "QuestionDesc": "What is the primary objective of Linear Regression?",
+        "QuestionOptions": [
+            "To classify data points",
+            "To establish a linear relationship",
+            "To cluster data",
+            "To reduce dimensions"
+        ],
+        "QuestionAnswer": "To establish a linear relationship",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Linear Regression aims to model the relationship between dependent and independent variables."
+    },
+    {
+        "QuestionId": 52,
+        "QuestionDesc": "Which assumption is not required for Linear Regression?",
+        "QuestionOptions": [
+            "Linearity",
+            "Multicollinearity",
+            "Homoscedasticity",
+            "Normality of residuals"
+        ],
+        "QuestionAnswer": "Multicollinearity",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Multicollinearity affects coefficients but is not an assumption of Linear Regression."
+    },
+    {
+        "QuestionId": 53,
+        "QuestionDesc": "What is the role of the intercept in a Linear Regression model?",
+        "QuestionOptions": [
+            "Defines the slope",
+            "Shifts the regression line",
+            "Determines correlation",
+            "Has no role"
+        ],
+        "QuestionAnswer": "Shifts the regression line",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "The intercept represents the expected value when all predictors are zero."
+    },
+    {
+        "QuestionId": 54,
+        "QuestionDesc": "Which evaluation metric is commonly used for Linear Regression?",
+        "QuestionOptions": [
+            "Accuracy",
+            "Mean Squared Error",
+            "F1-score",
+            "Silhouette Score"
+        ],
+        "QuestionAnswer": "Mean Squared Error",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "MSE measures the average squared difference between actual and predicted values."
+    },
+    {
+        "QuestionId": 55,
+        "QuestionDesc": "How does the Ordinary Least Squares (OLS) method work?",
+        "QuestionOptions": [
+            "Maximizes residuals",
+            "Minimizes sum of squared residuals",
+            "Uses gradient boosting",
+            "Applies decision trees"
+        ],
+        "QuestionAnswer": "Minimizes sum of squared residuals",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "OLS finds the best-fitting line by minimizing the squared differences between actual and predicted values."
+    },
+    {
+        "QuestionId": 56,
+        "QuestionDesc": "Which of the following affects the slope in Linear Regression?",
+        "QuestionOptions": [
+            "Feature scaling",
+            "Outliers",
+            "Learning rate",
+            "Number of observations"
+        ],
+        "QuestionAnswer": "Outliers",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Outliers can significantly influence the slope by pulling the regression line."
+    },
+    {
+        "QuestionId": 57,
+        "QuestionDesc": "What does R-squared measure in a Linear Regression model?",
+        "QuestionOptions": [
+            "Model complexity",
+            "Percentage of variance explained",
+            "Bias-variance tradeoff",
+            "Significance of predictors"
+        ],
+        "QuestionAnswer": "Percentage of variance explained",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "R-squared indicates how well the independent variables explain the variance in the dependent variable."
+    },
+    {
+        "QuestionId": 58,
+        "QuestionDesc": "What happens if a dataset violates the assumption of homoscedasticity?",
+        "QuestionOptions": [
+            "Linear Regression remains unaffected",
+            "Prediction accuracy improves",
+            "Errors become heteroscedastic",
+            "Multicollinearity occurs"
+        ],
+        "QuestionAnswer": "Errors become heteroscedastic",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Heteroscedasticity means that the variance of residuals is not constant, affecting model reliability."
+    },
+    {
+        "QuestionId": 59,
+        "QuestionDesc": "Why is feature scaling generally not required for Linear Regression?",
+        "QuestionOptions": [
+            "Coefficients are unaffected",
+            "Linear models do not involve distance calculations",
+            "Scaling is always required",
+            "Regression uses standardization"
+        ],
+        "QuestionAnswer": "Linear models do not involve distance calculations",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Unlike algorithms like KNN, Linear Regression does not rely on distance-based calculations."
+    },
+    {
+        "QuestionId": 60,
+        "QuestionDesc": "Which of the following indicates multicollinearity in Linear Regression?",
+        "QuestionOptions": [
+            "Low R-squared value",
+            "High Variance Inflation Factor (VIF)",
+            "Skewed residuals",
+            "Heteroscedasticity"
+        ],
+        "QuestionAnswer": "High Variance Inflation Factor (VIF)",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "A high VIF indicates that independent variables are highly correlated, affecting coefficient reliability."
+    },
+    {
+        "QuestionId": 61,
+        "QuestionDesc": "What is the primary objective of Linear Regression?",
+        "QuestionOptions": [
+            "To classify data points",
+            "To establish a linear relationship",
+            "To cluster data",
+            "To reduce dimensions"
+        ],
+        "QuestionAnswer": "To establish a linear relationship",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Linear Regression aims to model the relationship between dependent and independent variables."
+    },
+    {
+        "QuestionId": 62,
+        "QuestionDesc": "Which assumption is not required for Linear Regression?",
+        "QuestionOptions": [
+            "Linearity",
+            "Multicollinearity",
+            "Homoscedasticity",
+            "Normality of residuals"
+        ],
+        "QuestionAnswer": "Multicollinearity",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Multicollinearity affects coefficients but is not an assumption of Linear Regression."
+    },
+    {
+        "QuestionId": 63,
+        "QuestionDesc": "What is the role of the intercept in a Linear Regression model?",
+        "QuestionOptions": [
+            "Defines the slope",
+            "Shifts the regression line",
+            "Determines correlation",
+            "Has no role"
+        ],
+        "QuestionAnswer": "Shifts the regression line",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "The intercept represents the expected value when all predictors are zero."
+    },
+    {
+        "QuestionId": 64,
+        "QuestionDesc": "Which evaluation metric is commonly used for Linear Regression?",
+        "QuestionOptions": [
+            "Accuracy",
+            "Mean Squared Error",
+            "F1-score",
+            "Silhouette Score"
+        ],
+        "QuestionAnswer": "Mean Squared Error",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "MSE measures the average squared difference between actual and predicted values."
+    },
+    {
+        "QuestionId": 65,
+        "QuestionDesc": "How does the Ordinary Least Squares (OLS) method work?",
+        "QuestionOptions": [
+            "Maximizes residuals",
+            "Minimizes sum of squared residuals",
+            "Uses gradient boosting",
+            "Applies decision trees"
+        ],
+        "QuestionAnswer": "Minimizes sum of squared residuals",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "OLS finds the best-fitting line by minimizing the squared differences between actual and predicted values."
+    },
+    {
+        "QuestionId": 66,
+        "QuestionDesc": "Which of the following affects the slope in Linear Regression?",
+        "QuestionOptions": [
+            "Feature scaling",
+            "Outliers",
+            "Learning rate",
+            "Number of observations"
+        ],
+        "QuestionAnswer": "Outliers",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Outliers can significantly influence the slope by pulling the regression line."
+    },
+    {
+        "QuestionId": 67,
+        "QuestionDesc": "What does R-squared measure in a Linear Regression model?",
+        "QuestionOptions": [
+            "Model complexity",
+            "Percentage of variance explained",
+            "Bias-variance tradeoff",
+            "Significance of predictors"
+        ],
+        "QuestionAnswer": "Percentage of variance explained",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "R-squared indicates how well the independent variables explain the variance in the dependent variable."
+    },
+    {
+        "QuestionId": 68,
+        "QuestionDesc": "What happens if a dataset violates the assumption of homoscedasticity?",
+        "QuestionOptions": [
+            "Linear Regression remains unaffected",
+            "Prediction accuracy improves",
+            "Errors become heteroscedastic",
+            "Multicollinearity occurs"
+        ],
+        "QuestionAnswer": "Errors become heteroscedastic",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Heteroscedasticity means that the variance of residuals is not constant, affecting model reliability."
+    },
+    {
+        "QuestionId": 69,
+        "QuestionDesc": "Why is feature scaling generally not required for Linear Regression?",
+        "QuestionOptions": [
+            "Coefficients are unaffected",
+            "Linear models do not involve distance calculations",
+            "Scaling is always required",
+            "Regression uses standardization"
+        ],
+        "QuestionAnswer": "Linear models do not involve distance calculations",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Unlike algorithms like KNN, Linear Regression does not rely on distance-based calculations."
+    },
+    {
+        "QuestionId": 70,
+        "QuestionDesc": "Which of the following indicates multicollinearity in Linear Regression?",
+        "QuestionOptions": [
+            "Low R-squared value",
+            "High Variance Inflation Factor (VIF)",
+            "Skewed residuals",
+            "Heteroscedasticity"
+        ],
+        "QuestionAnswer": "High Variance Inflation Factor (VIF)",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "A high VIF indicates that independent variables are highly correlated, affecting coefficient reliability."
+    },
+    {
+        "QuestionId": 71,
+        "QuestionDesc": "What is the primary objective of Linear Regression?",
+        "QuestionOptions": [
+            "To classify data points",
+            "To establish a linear relationship",
+            "To cluster data",
+            "To reduce dimensions"
+        ],
+        "QuestionAnswer": "To establish a linear relationship",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Linear Regression aims to model the relationship between dependent and independent variables."
+    },
+    {
+        "QuestionId": 72,
+        "QuestionDesc": "Which assumption is not required for Linear Regression?",
+        "QuestionOptions": [
+            "Linearity",
+            "Multicollinearity",
+            "Homoscedasticity",
+            "Normality of residuals"
+        ],
+        "QuestionAnswer": "Multicollinearity",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Multicollinearity affects coefficients but is not an assumption of Linear Regression."
+    },
+    {
+        "QuestionId": 73,
+        "QuestionDesc": "What is the role of the intercept in a Linear Regression model?",
+        "QuestionOptions": [
+            "Defines the slope",
+            "Shifts the regression line",
+            "Determines correlation",
+            "Has no role"
+        ],
+        "QuestionAnswer": "Shifts the regression line",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "The intercept represents the expected value when all predictors are zero."
+    },
+    {
+        "QuestionId": 74,
+        "QuestionDesc": "Which evaluation metric is commonly used for Linear Regression?",
+        "QuestionOptions": [
+            "Accuracy",
+            "Mean Squared Error",
+            "F1-score",
+            "Silhouette Score"
+        ],
+        "QuestionAnswer": "Mean Squared Error",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "MSE measures the average squared difference between actual and predicted values."
+    },
+    {
+        "QuestionId": 75,
+        "QuestionDesc": "How does the Ordinary Least Squares (OLS) method work?",
+        "QuestionOptions": [
+            "Maximizes residuals",
+            "Minimizes sum of squared residuals",
+            "Uses gradient boosting",
+            "Applies decision trees"
+        ],
+        "QuestionAnswer": "Minimizes sum of squared residuals",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "OLS finds the best-fitting line by minimizing the squared differences between actual and predicted values."
+    },
+    {
+        "QuestionId": 76,
+        "QuestionDesc": "Which of the following affects the slope in Linear Regression?",
+        "QuestionOptions": [
+            "Feature scaling",
+            "Outliers",
+            "Learning rate",
+            "Number of observations"
+        ],
+        "QuestionAnswer": "Outliers",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Outliers can significantly influence the slope by pulling the regression line."
+    },
+    {
+        "QuestionId": 77,
+        "QuestionDesc": "What does R-squared measure in a Linear Regression model?",
+        "QuestionOptions": [
+            "Model complexity",
+            "Percentage of variance explained",
+            "Bias-variance tradeoff",
+            "Significance of predictors"
+        ],
+        "QuestionAnswer": "Percentage of variance explained",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "R-squared indicates how well the independent variables explain the variance in the dependent variable."
+    },
+    {
+        "QuestionId": 78,
+        "QuestionDesc": "What happens if a dataset violates the assumption of homoscedasticity?",
+        "QuestionOptions": [
+            "Linear Regression remains unaffected",
+            "Prediction accuracy improves",
+            "Errors become heteroscedastic",
+            "Multicollinearity occurs"
+        ],
+        "QuestionAnswer": "Errors become heteroscedastic",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Heteroscedasticity means that the variance of residuals is not constant, affecting model reliability."
+    },
+    {
+        "QuestionId": 79,
+        "QuestionDesc": "Why is feature scaling generally not required for Linear Regression?",
+        "QuestionOptions": [
+            "Coefficients are unaffected",
+            "Linear models do not involve distance calculations",
+            "Scaling is always required",
+            "Regression uses standardization"
+        ],
+        "QuestionAnswer": "Linear models do not involve distance calculations",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Unlike algorithms like KNN, Linear Regression does not rely on distance-based calculations."
+    },
+    {
+        "QuestionId": 80,
+        "QuestionDesc": "Which of the following indicates multicollinearity in Linear Regression?",
+        "QuestionOptions": [
+            "Low R-squared value",
+            "High Variance Inflation Factor (VIF)",
+            "Skewed residuals",
+            "Heteroscedasticity"
+        ],
+        "QuestionAnswer": "High Variance Inflation Factor (VIF)",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "A high VIF indicates that independent variables are highly correlated, affecting coefficient reliability."
+    },
+    {
+        "QuestionId": 81,
+        "QuestionDesc": "What is the primary objective of Linear Regression?",
+        "QuestionOptions": [
+            "To classify data points",
+            "To establish a linear relationship",
+            "To cluster data",
+            "To reduce dimensions"
+        ],
+        "QuestionAnswer": "To establish a linear relationship",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Linear Regression aims to model the relationship between dependent and independent variables."
+    },
+    {
+        "QuestionId": 82,
+        "QuestionDesc": "Which assumption is not required for Linear Regression?",
+        "QuestionOptions": [
+            "Linearity",
+            "Multicollinearity",
+            "Homoscedasticity",
+            "Normality of residuals"
+        ],
+        "QuestionAnswer": "Multicollinearity",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Multicollinearity affects coefficients but is not an assumption of Linear Regression."
+    },
+    {
+        "QuestionId": 83,
+        "QuestionDesc": "What is the role of the intercept in a Linear Regression model?",
+        "QuestionOptions": [
+            "Defines the slope",
+            "Shifts the regression line",
+            "Determines correlation",
+            "Has no role"
+        ],
+        "QuestionAnswer": "Shifts the regression line",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "The intercept represents the expected value when all predictors are zero."
+    },
+    {
+        "QuestionId": 84,
+        "QuestionDesc": "Which evaluation metric is commonly used for Linear Regression?",
+        "QuestionOptions": [
+            "Accuracy",
+            "Mean Squared Error",
+            "F1-score",
+            "Silhouette Score"
+        ],
+        "QuestionAnswer": "Mean Squared Error",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "MSE measures the average squared difference between actual and predicted values."
+    },
+    {
+        "QuestionId": 85,
+        "QuestionDesc": "How does the Ordinary Least Squares (OLS) method work?",
+        "QuestionOptions": [
+            "Maximizes residuals",
+            "Minimizes sum of squared residuals",
+            "Uses gradient boosting",
+            "Applies decision trees"
+        ],
+        "QuestionAnswer": "Minimizes sum of squared residuals",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "OLS finds the best-fitting line by minimizing the squared differences between actual and predicted values."
+    },
+    {
+        "QuestionId": 86,
+        "QuestionDesc": "Which of the following affects the slope in Linear Regression?",
+        "QuestionOptions": [
+            "Feature scaling",
+            "Outliers",
+            "Learning rate",
+            "Number of observations"
+        ],
+        "QuestionAnswer": "Outliers",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Outliers can significantly influence the slope by pulling the regression line."
+    },
+    {
+        "QuestionId": 87,
+        "QuestionDesc": "What does R-squared measure in a Linear Regression model?",
+        "QuestionOptions": [
+            "Model complexity",
+            "Percentage of variance explained",
+            "Bias-variance tradeoff",
+            "Significance of predictors"
+        ],
+        "QuestionAnswer": "Percentage of variance explained",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "R-squared indicates how well the independent variables explain the variance in the dependent variable."
+    },
+    {
+        "QuestionId": 88,
+        "QuestionDesc": "What happens if a dataset violates the assumption of homoscedasticity?",
+        "QuestionOptions": [
+            "Linear Regression remains unaffected",
+            "Prediction accuracy improves",
+            "Errors become heteroscedastic",
+            "Multicollinearity occurs"
+        ],
+        "QuestionAnswer": "Errors become heteroscedastic",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Heteroscedasticity means that the variance of residuals is not constant, affecting model reliability."
+    },
+    {
+        "QuestionId": 89,
+        "QuestionDesc": "Why is feature scaling generally not required for Linear Regression?",
+        "QuestionOptions": [
+            "Coefficients are unaffected",
+            "Linear models do not involve distance calculations",
+            "Scaling is always required",
+            "Regression uses standardization"
+        ],
+        "QuestionAnswer": "Linear models do not involve distance calculations",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Unlike algorithms like KNN, Linear Regression does not rely on distance-based calculations."
+    },
+    {
+        "QuestionId": 90,
+        "QuestionDesc": "Which of the following indicates multicollinearity in Linear Regression?",
+        "QuestionOptions": [
+            "Low R-squared value",
+            "High Variance Inflation Factor (VIF)",
+            "Skewed residuals",
+            "Heteroscedasticity"
+        ],
+        "QuestionAnswer": "High Variance Inflation Factor (VIF)",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "A high VIF indicates that independent variables are highly correlated, affecting coefficient reliability."
+    },
+    {
+        "QuestionId": 91,
+        "QuestionDesc": "What is the primary objective of Linear Regression?",
+        "QuestionOptions": [
+            "To classify data points",
+            "To establish a linear relationship",
+            "To cluster data",
+            "To reduce dimensions"
+        ],
+        "QuestionAnswer": "To establish a linear relationship",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Linear Regression aims to model the relationship between dependent and independent variables."
+    },
+    {
+        "QuestionId": 92,
+        "QuestionDesc": "Which assumption is not required for Linear Regression?",
+        "QuestionOptions": [
+            "Linearity",
+            "Multicollinearity",
+            "Homoscedasticity",
+            "Normality of residuals"
+        ],
+        "QuestionAnswer": "Multicollinearity",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Multicollinearity affects coefficients but is not an assumption of Linear Regression."
+    },
+    {
+        "QuestionId": 93,
+        "QuestionDesc": "What is the role of the intercept in a Linear Regression model?",
+        "QuestionOptions": [
+            "Defines the slope",
+            "Shifts the regression line",
+            "Determines correlation",
+            "Has no role"
+        ],
+        "QuestionAnswer": "Shifts the regression line",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "The intercept represents the expected value when all predictors are zero."
+    },
+    {
+        "QuestionId": 94,
+        "QuestionDesc": "Which evaluation metric is commonly used for Linear Regression?",
+        "QuestionOptions": [
+            "Accuracy",
+            "Mean Squared Error",
+            "F1-score",
+            "Silhouette Score"
+        ],
+        "QuestionAnswer": "Mean Squared Error",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "MSE measures the average squared difference between actual and predicted values."
+    },
+    {
+        "QuestionId": 95,
+        "QuestionDesc": "How does the Ordinary Least Squares (OLS) method work?",
+        "QuestionOptions": [
+            "Maximizes residuals",
+            "Minimizes sum of squared residuals",
+            "Uses gradient boosting",
+            "Applies decision trees"
+        ],
+        "QuestionAnswer": "Minimizes sum of squared residuals",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "OLS finds the best-fitting line by minimizing the squared differences between actual and predicted values."
+    },
+    {
+        "QuestionId": 96,
+        "QuestionDesc": "Which of the following affects the slope in Linear Regression?",
+        "QuestionOptions": [
+            "Feature scaling",
+            "Outliers",
+            "Learning rate",
+            "Number of observations"
+        ],
+        "QuestionAnswer": "Outliers",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Outliers can significantly influence the slope by pulling the regression line."
+    },
+    {
+        "QuestionId": 97,
+        "QuestionDesc": "What does R-squared measure in a Linear Regression model?",
+        "QuestionOptions": [
+            "Model complexity",
+            "Percentage of variance explained",
+            "Bias-variance tradeoff",
+            "Significance of predictors"
+        ],
+        "QuestionAnswer": "Percentage of variance explained",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "R-squared indicates how well the independent variables explain the variance in the dependent variable."
+    },
+    {
+        "QuestionId": 98,
+        "QuestionDesc": "What happens if a dataset violates the assumption of homoscedasticity?",
+        "QuestionOptions": [
+            "Linear Regression remains unaffected",
+            "Prediction accuracy improves",
+            "Errors become heteroscedastic",
+            "Multicollinearity occurs"
+        ],
+        "QuestionAnswer": "Errors become heteroscedastic",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Heteroscedasticity means that the variance of residuals is not constant, affecting model reliability."
+    },
+    {
+        "QuestionId": 99,
+        "QuestionDesc": "Why is feature scaling generally not required for Linear Regression?",
+        "QuestionOptions": [
+            "Coefficients are unaffected",
+            "Linear models do not involve distance calculations",
+            "Scaling is always required",
+            "Regression uses standardization"
+        ],
+        "QuestionAnswer": "Linear models do not involve distance calculations",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "Unlike algorithms like KNN, Linear Regression does not rely on distance-based calculations."
+    },
+    {
+        "QuestionId": 100,
+        "QuestionDesc": "Which of the following indicates multicollinearity in Linear Regression?",
+        "QuestionOptions": [
+            "Low R-squared value",
+            "High Variance Inflation Factor (VIF)",
+            "Skewed residuals",
+            "Heteroscedasticity"
+        ],
+        "QuestionAnswer": "High Variance Inflation Factor (VIF)",
+        "QuestionTopic": "Linear Regression",
+        "QuestionReason": "A high VIF indicates that independent variables are highly correlated, affecting coefficient reliability."
+    }
+]

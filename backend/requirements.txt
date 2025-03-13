@@ -32,7 +32,6 @@ pure_eval==0.2.3
 Pygments==2.19.1
 python-dateutil==2.9.0.post0
 pytz==2025.1
-pywin32==308
 pyzmq==26.2.1
 regex==2024.11.6
 scikit-learn==1.6.1
